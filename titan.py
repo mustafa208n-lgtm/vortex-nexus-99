@@ -540,7 +540,7 @@ elif "15." in active_module:
         st.download_button("📥 Download Official Certified JSON", json_string, file_name="inspector_cert_audited_49box.json", mime="application/json")
 
 elif "16." in active_module:
-    st.header("🌐 الصندوق 7: نظام "جوجل المصانع والورش بالمتر المربع" (النقاط 47 & 48)")
+    st.header("🌐 الصندوق 7: نظام جوجل المصانع والورش بالمتر المربع (النقاط 47 & 48)")
     st.markdown("البحث والربط الجغرافي للمساحات الشاغرة بالمتر المربع في مدن أوروبا حياً على الشاشة بالتوافق مع الرموز التسلسلية.")
     
     col_a, col_b = st.columns(2)
