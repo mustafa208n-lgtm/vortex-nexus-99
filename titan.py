@@ -210,7 +210,7 @@ if not st.session_state["gatekeeper_approved"]:
     st.markdown("""
     ### 🛡️ European Digital Sovereignty & All 49 Boxes Integrated Architecture
     Initialized with strict NIS2 Environment Validation, Queue-based Ingestion, and Full Box Integration (Boxes 1 to 49).
-    """")
+    """)
     if st.button("🤝 Acknowledge & Authorize Secure Gateway (Boxes 1-49)", use_container_width=True):
         st.session_state["gatekeeper_approved"] = True
         st.rerun()
